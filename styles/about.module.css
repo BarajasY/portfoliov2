@@ -1,0 +1,51 @@
+.aboutContainer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutContent {
+    border-radius: 15px;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutContent section {
+    width: 45%;
+    height: 90%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutTitle {
+    font-size: 20px;
+    color: var(--brown);
+}
+
+.aboutContent section article {
+    border: 2px solid var(--brown);
+    padding: 10px;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.aboutDescription {
+    font-size: 25px;
+    text-align: justify;
+    color: var(--darkblue);
+    padding: 10px;
+}
+
+.aboutLogo {
+    color: var(--lightblue);
+    font-size: 50px;
+    margin: 10px;
+}

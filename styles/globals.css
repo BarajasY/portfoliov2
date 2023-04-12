@@ -6,8 +6,17 @@
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
   --bgColor: rgb(255, 255, 255);
   --bgColorShade: rgb(235, 235, 235);
+  --bgColorShade2: rgb(100, 100, 100);
   --bluegreen: #006699;
   --reactcolor: rgb(7, 143, 167);
+  --dark: #010003;
+  --lightblue: #37c2ee;
+  --brown: #936c5a;
+  --darkblue: #00a3d1;
+}
+
+body {
+  background: var(--dark);
 }
 
 * {
@@ -20,4 +29,16 @@
 a {
   color: inherit;
   text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--darkblue);
 }
