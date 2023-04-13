@@ -9,43 +9,85 @@
 .aboutContent {
     border-radius: 15px;
     width: 80%;
-    height: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.aboutContent section {
-    width: 45%;
     height: 90%;
-    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.aboutTitle {
-    font-size: 20px;
+.fetchContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fetchContent article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutHTTP {
+    color: var(--success);
+    margin: 10px;
+    font-weight: 900;
+}
+
+.aboutFetch {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    padding: 10px;
+    font-size: 40px;
+    background: var(--dark);
+    border: 2px solid var(--darkblue);
+    color: var(--darkblue);
+    border-radius: 15px;
+}
+
+.aboutFetch:hover {
+    background: var(--darkblue);
+    color: var(--dark);
+    cursor: pointer;
+    box-shadow: 0px 0px 30px var(--lightblue);
+}
+
+.aboutContent span:nth-child(1) {
+    color: var(--darkblue);
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.aboutMe h1 {
+    color: var(--darkblue);
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+.aboutDescription span {
     color: var(--brown);
 }
 
-.aboutContent section article {
-    border: 2px solid var(--brown);
-    padding: 10px;
-    border-radius: 15px;
-    margin: 10px;
+.aboutStack {
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    text-align: center;
 }
 
-.aboutDescription {
-    font-size: 25px;
-    text-align: justify;
+.aboutStack h1 {
     color: var(--darkblue);
-    padding: 10px;
+    font-size: 40px;
 }
 
-.aboutLogo {
-    color: var(--lightblue);
+.iconsContainer {
+    transform: translateX(2000px);
+}
+
+.icon {
+    color: var(--darkblue);
     font-size: 50px;
     margin: 10px;
 }

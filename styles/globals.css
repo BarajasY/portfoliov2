@@ -13,6 +13,7 @@
   --lightblue: #37c2ee;
   --brown: #936c5a;
   --darkblue: #00a3d1;
+  --success: #009900;
 }
 
 body {
@@ -41,4 +42,8 @@ a {
 
 ::-webkit-scrollbar-thumb {
   background: var(--darkblue);
+}
+
+::-webkit-scrollbar {
+  display: none;
 }

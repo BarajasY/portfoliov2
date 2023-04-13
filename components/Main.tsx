@@ -13,7 +13,10 @@ export default function Main() {
                     <h1 className={style.mainOccupation}>Software Engineer</h1>
                     <p onClick={() => window.scrollTo({top: 1000, behavior: "smooth"})}>Continue</p>
                 </section>
-                <section className={style.droplet}></section>
+                <section className={style.test}>
+                    <h1>Yahir</h1>
+                </section>
+{/*                 <section className={style.droplet}></section> */}
             </div>
         </div>
     )
