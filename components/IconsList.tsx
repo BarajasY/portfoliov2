@@ -19,7 +19,7 @@ export default function IconsList() {
       className={style.iconsWrapper}
     >
       <div className={style.iconContainer}>
-        <p>Re</p>
+        <p>React</p>
         <FaReact className={style.icon} />
       </div>
       <div className={style.iconContainer}>
@@ -27,7 +27,7 @@ export default function IconsList() {
         <SiTypescript className={style.icon} />
       </div>
       <div className={style.iconContainer}>
-        <p>Dux</p>
+        <p>Redux</p>
         <SiRedux className={style.icon} />
       </div>
       <div className={style.iconContainer}>
@@ -35,43 +35,43 @@ export default function IconsList() {
         <IoLogoJavascript className={style.icon} />
       </div>
       <div className={style.iconContainer}>
-        <p>Ja</p>
+        <p>Java</p>
         <FaJava className={style.icon} />
       </div>
       <div className={style.iconContainer}>
-        <p>Ht</p>
+        <p>HTML</p>
         <IoLogoHtml5 className={style.icon} />
       </div>
       <div className={style.iconContainer}>
-        <p>Po</p>
+        <p>PSQL</p>
         <SiPostgresql className={style.icon} />
       </div>
       <div className={style.iconContainer}>
-        <p>Sp</p>
+        <p>Spring</p>
         <SiSpring className={style.icon} />
       </div>
       <div className={style.iconContainer}>
-        <p>Css</p>
+        <p>CSS</p>
         <IoLogoCss3 className={style.icon} />
       </div>
       <div className={style.iconContainer}>
-        <p>Rq</p>
+        <p>ReactQ</p>
         <SiReactquery className={style.icon} />
       </div>
       <div className={style.iconContainer}>
-        <p>MSQ</p>
+        <p>MySQL</p>
         <SiMysql className={style.icon} />
       </div>
       <div className={style.iconContainer}>
-        <p>Fi</p>
+        <p>Firebase</p>
         <SiFirebase className={style.icon} />
       </div>
       <div className={style.iconContainer}>
-        <p>Ex</p>
+        <p>Express</p>
         <SiExpress className={style.icon} />
       </div>
       <div className={style.iconContainer}>
-        <p>Po</p>
+        <p>Postman</p>
         <SiPostman className={style.icon} />
       </div>
       <div className={style.iconContainer}>

@@ -69,7 +69,7 @@
 }
 
 .aboutDescription span {
-    color: var(--brown);
+    color: var(--green);
 }
 
 .aboutStack {
@@ -111,14 +111,14 @@
 }
 
 .iconContainer:hover .icon {
-    color: var(--brown);
+    color: var(--silver);
 }
 
 .iconContainer p {
     font-size: 20px;
     text-align: end !important;
     transform: translateY(-10px) translateX(5px);
-    color: var(--brown);
+    color: var(--silver);
 }
 
 .icon {

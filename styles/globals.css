@@ -7,11 +7,15 @@
   --bgColor: rgb(255, 255, 255);
   --bgColorShade: rgb(235, 235, 235);
   --bgColorShade2: rgb(100, 100, 100);
+  --silver: #eceae7;
   --bluegreen: #006699;
   --reactcolor: rgb(7, 143, 167);
   --dark: #010003;
   --lightblue: #37c2ee;
+  --clearblue: #78bbd2;
+  --green: #00c8aa;
   --brown: #936c5a;
+  --red: #ce251f;
   --darkblue: #00a3d1;
   --success: #009900;
 }
@@ -33,6 +37,7 @@ a {
 }
 
 ::-webkit-scrollbar {
+  height: 0px;
   width: 5px;
 }
 
@@ -44,6 +49,6 @@ a {
   background: var(--darkblue);
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   display: none;
-}
+} */

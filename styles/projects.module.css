@@ -1,0 +1,96 @@
+.projectsContainer {
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectsContent {
+    width: 90%;
+}
+
+.rightProject, .leftProject {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    border: 2px solid var(--darkblue);
+    box-shadow: 5px 5px 10px var(--darkblue);
+    margin: 50px 0px;
+}
+
+.rightProject section, .leftProject section{
+    width: 100%;
+    height: 90%;
+    display: flex;
+}
+
+.aboutProject {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectTitle {
+    font-size: 50px;
+    color: var(--reactcolor);
+    font-weight: 900;
+}
+
+.aboutProject p {
+    width: 80%;
+    font-size: 25px;
+    color: var(--bgColor);
+    text-align: center;
+    font-weight: 300;
+}
+
+.aboutProject a {
+    margin-top: 20px;
+    color: var(--green);
+    font-size: 25px;
+    border: 2px solid transparent;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.aboutProject a:hover {
+    border: 2px solid var(--green);
+}
+
+.projectImage {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectImage img {
+    width: 650px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.projectStackIcons {
+    width: 40% !important;
+    height: 10% !important;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid var(--green);
+    border-radius: 15px;
+}
+
+.projectIcon {
+    font-size: 40px;
+    color: var(--clearblue);
+}

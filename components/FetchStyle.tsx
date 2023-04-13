@@ -31,12 +31,14 @@ export default function FetchStyle() {
                     className={style.aboutHTTP}
                     initial={{opacity: 0, y: 20}}
                     whileInView={{opacity: 1, y: 0}}
-                    transition={{delay: 5.5}}>GET: 200 OK</motion.p>
+                    transition={{delay: 5.5}}
+                    viewport={{once: true}}>GET: 200 OK</motion.p>
                     <motion.h1 
                     className={style.aboutDescription}
                     initial={{opacity: 0, y: 30}}
                     whileInView={{opacity: 1, y: 0}}
-                    transition={{delay: 6.5}}>
+                    transition={{delay: 6.5}}
+                    viewport={{once: true}}>
                         &#123;
                         <br />
                         &emsp;"nationality": <span>"Mexican",</span> <br />
@@ -52,12 +54,10 @@ export default function FetchStyle() {
                 <motion.div className={style.aboutStack}
                 initial={{opacity: 0}}
                 whileInView={{opacity: 1}}
-                transition={{delay: 7}}>
+                transition={{delay: 7}}
+                viewport={{once: true}}>
                     <h1>Stack</h1>
                     <IconsList />
-                </motion.div>
-                <motion.div>
-                    <Projects />
                 </motion.div>
             </motion.article>
             :
@@ -68,7 +68,7 @@ export default function FetchStyle() {
             initial={{opacity: 0, y: 30}}
             whileInView={{opacity: 1, y: 0}}
             exit={{opacity: 0, y: -30}}
-            >Fetch</motion.button>
+            >About me</motion.button>
         }
         </AnimatePresence>
         </div>

@@ -16,7 +16,6 @@ export default function Main() {
                 <section className={style.test}>
                     <h1>Yahir</h1>
                 </section>
-{/*                 <section className={style.droplet}></section> */}
             </div>
         </div>
     )
