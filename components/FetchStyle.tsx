@@ -4,10 +4,11 @@ import style from "../styles/about.module.css"
 import TypewriterComponent from "typewriter-effect"
 import { motion, AnimatePresence } from "framer-motion"
 import IconsList from "./IconsList"
+import Projects from "./Projects"
 
 
 export default function FetchStyle() {
-    const [Visible, setVisible] = useState(false)
+    const [Visible, setVisible] = useState<boolean>(false)
 
     return (
         <div className={style.fetchContent}>
@@ -43,7 +44,7 @@ export default function FetchStyle() {
                         &emsp;"career": <span>"Software Engineering",</span> <br />
                         &emsp;"hobbies": <span>["coding", "gaming"],</span> <br />
                         &emsp;"specialty": <span>["React", "TypeScript"]</span> <br />
-                        &emsp;"projectsNo": <span>14,</span> <br />
+                        &emsp;"projectsTotal": <span>14,</span> <br />
                         &emsp;"age": <span>20</span>
                         <br /> &#125;
                     </motion.h1>
@@ -54,6 +55,9 @@ export default function FetchStyle() {
                 transition={{delay: 7}}>
                     <h1>Stack</h1>
                     <IconsList />
+                </motion.div>
+                <motion.div>
+                    <Projects />
                 </motion.div>
             </motion.article>
             :
