@@ -18,8 +18,8 @@
     flex-direction: column;
     align-items: center;
     border-radius: 15px;
-    border: 2px solid var(--darkblue);
-    box-shadow: 5px 5px 10px var(--darkblue);
+    border: 2px solid var(--green);
+    box-shadow: 5px 5px 20px var(--green);
     margin: 50px 0px;
 }
 
@@ -55,12 +55,14 @@
     margin-top: 20px;
     color: var(--green);
     font-size: 25px;
-    border: 2px solid transparent;
+    border: 2px solid var(--green);
     padding: 10px 20px;
     border-radius: 5px;
 }
 
 .aboutProject a:hover {
+    background: var(--green);
+    color: var(--dark);
     border: 2px solid var(--green);
 }
 
@@ -80,7 +82,7 @@
 
 .projectStackIcons {
     width: 40% !important;
-    height: 10% !important;
+    height: 13% !important;
     display: flex;
     justify-content: space-around;
     align-items: center;

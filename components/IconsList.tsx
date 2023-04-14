@@ -9,6 +9,7 @@ import {
   SiFirebase,
   SiExpress,
   SiPostman,
+  SiNextdotjs,
 } from "react-icons/si";
 import { FaJava, FaReact, FaGitAlt } from "react-icons/fa";
 import style from "../styles/about.module.css";
@@ -77,6 +78,10 @@ export default function IconsList() {
       <div className={style.iconContainer}>
         <p>Git</p>
         <FaGitAlt className={style.icon} />
+      </div>
+      <div className={style.iconContainer}>
+        <p>Next</p>
+        <SiNextdotjs className={style.icon} />
       </div>
     </article>
   );

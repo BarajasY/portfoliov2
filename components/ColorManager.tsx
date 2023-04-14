@@ -1,7 +1,7 @@
 import { SiPostgresql, SiReact, SiSpring, SiTypescript } from 'react-icons/si'
 import style from '../styles/projects.module.css'
 import { FaCss3, FaHtml5, FaJava } from 'react-icons/fa'
-import togenim from "../assets/togenim.webp";
+import colormanager from "../assets/colormanager.webp";
 import Image from 'next/image'
 
 export default function ColorManager() {
@@ -17,7 +17,7 @@ export default function ColorManager() {
             </a>
           </div>
           <div className={style.projectImage} style={{order: 1}}>
-            <Image src={togenim} alt="Togenim project"></Image>
+            <Image src={colormanager} alt="Togenim project"></Image>
           </div>
         </section>
         <section className={style.projectStackIcons}>

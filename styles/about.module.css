@@ -93,7 +93,7 @@
 .iconsWrapper {
     margin-top: 20px;
     display: grid !important;
-    grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto auto;
     gap: 20px;
 }
 
@@ -116,7 +116,7 @@
 
 .iconContainer p {
     font-size: 20px;
-    text-align: end !important;
+    text-align: center !important;
     transform: translateY(-10px) translateX(5px);
     color: var(--silver);
 }
